@@ -54,5 +54,17 @@
 }
 
 .container__botao {
-    display: none;
+ display: non
 }
+
+ @media screen and (min-width: 1024px) {
+    .containe__titulo{
+        font-family: josefin sans;
+        font-size: 30px;
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+ }
